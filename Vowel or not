@@ -1,0 +1,7 @@
+def vowel(letter):
+    if letter in ['a', 'e', 'i', 'o', 'u']:
+        return print("Vowel")
+    else:
+        return print("Not a vowel")
+letter = input("Enter a letter: ")
+vowel(letter)
